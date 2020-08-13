@@ -1,6 +1,6 @@
 # XML to Map
 
-*Copy of the tech test requirements is included [here](https://github.com/lornasw93/api-the-musicial-kind/blob/master/Interact%20with%20APIs.pdf)*
+*Copy of the tech test requirements is included [here](https://github.com/lornasw93/api-the-musicial-kind/blob/master/Interact%20with%20APIs.pdf)* (with the API Key hidden)
 
 ## If I had more time I would have... ⏳
 * Deployed via Azure
