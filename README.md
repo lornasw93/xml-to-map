@@ -38,5 +38,3 @@ In a previous role I worked on a project called "My Surgery Website" which is li
 After I left that role, I created a side project where instead of getting results from a SQL database would be from 2 files where 1 contained postcodes and the other lat/long. The aim of that project was to extract data from both files into a new JSON file. I was able to convert the postcodes by using an existing package. 
 
 [Check out the code here](https://github.com/lornasw93/csv-to-map/blob/master/CsvToMap/Controllers/Api/FileController.cs)
-
-

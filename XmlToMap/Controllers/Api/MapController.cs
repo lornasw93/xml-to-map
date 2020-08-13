@@ -5,9 +5,8 @@ using System.Web.Http;
 using System.Xml.Serialization;
 using XmlToMap.Models;
 
-namespace XmlToMap.Controllers
+namespace XmlToMap.Controllers.Api
 {
-    [Route("api/Map")]
     public class MapController : ApiController
     {
         [HttpGet]
