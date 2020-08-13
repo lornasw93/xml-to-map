@@ -3,10 +3,11 @@
 *Copy of the tech test requirements is included [here](https://github.com/lornasw93/api-the-musicial-kind/blob/master/Interact%20with%20APIs.pdf)*
 
 ## If I had more time I would have... ⏳
+* Deployed via Azure
 * Added file uploader (for XML file)
 * Improved the look and feel
 * More visual loading
-* Better error handling
+* Error handling
 * Async functions
 
 ## However, I have... ✅
@@ -20,6 +21,11 @@
 Make sure you replace the **APIKEY** value with your Google Maps API Key in the Layout.cshtml file:
 ```
 <script src="https://maps.googleapis.com/maps/api/js?key=APIKEY"></script>
+```
+
+For now, I've put the *Locations.xml* file on my local drive, this will need changing if you're going to run it (*MapController*):
+```
+var directory = new DirectoryInfo("C:\\Users\\lornn\\Documents\\CsvToMap");
 ```
 
 If wanting to run locally, download the repo, restore Nuget packages and run.
