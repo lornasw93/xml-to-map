@@ -4,6 +4,8 @@
 
 ![](https://github.com/lornasw93/xml-to-map/blob/master/xml-to-map.gif)
 
+I created a new ASP.NET Web Application in Visual Studio 2019. I installed bootstrap, jQuery and VueJS libaries, then found which scripts I needed for integrating with Google Maps API.  
+
 ## If I had more time I would have... ⏳
 * Deployed via Azure
 * Added file uploader (for XML file)
@@ -11,12 +13,21 @@
 * More visual loading
 * Error handling
 * Async functions
+* Unit testing
 
 ## However, I have... ✅
 * Integrated with Google Maps API
 * Used marker clusters
 * Used VueJS
 * Used very basic Bootstrap
+
+## In the future... 🔮
+### Reading from the Database
+If/when the locations are stored in a SQL database then I would've began to:
+* Separate the code out i.e. create a service class (*IDatabaseService*, *DatabaseService*), where the main functionality for getting the data would live
+* General functionality would be parsing the data into a list
+* The controller would then call the appropriate method in the service
+* Implement logging in the database in case for issues of incorrect data format
 
 ## Quick Start 
 
