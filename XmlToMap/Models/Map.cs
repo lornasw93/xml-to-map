@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Xml.Serialization;
+﻿using System.Xml.Serialization;
 
 namespace XmlToMap.Models
 { 
@@ -13,11 +12,5 @@ namespace XmlToMap.Models
 
         [XmlAttribute("Longitude")]
         public double Longitude { get; set; }
-    }
-     
-    public class RootObject
-    {
-        [XmlElement("Location")]
-        public List<Map> Location { get; set; }
     }
 }
