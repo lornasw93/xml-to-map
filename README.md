@@ -1,6 +1,6 @@
 # XML to Map
 
-*Copy of the tech test requirements is included [here](https://github.com/lornasw93/api-the-musicial-kind/blob/master/Interact%20with%20APIs.pdf)* (with the API Key hidden)
+*Copy of the tech test requirements is included [here](https://github.com/lornasw93/xml-to-map/blob/master/Tech%20Test.docx)* (with the API Key hidden)
 
 ![](https://github.com/lornasw93/xml-to-map/blob/master/xml-to-map.gif)
 
