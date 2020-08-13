@@ -18,8 +18,8 @@ I created a new ASP.NET Web Application in Visual Studio 2019. I installed boots
 ## However, I have... ✅
 * Integrated with Google Maps API
 * Used marker clusters
-* Used VueJS
-* Used very basic Bootstrap
+* Used VueJS (because very quick to get up and running)
+* Used very basic Bootstrap (basic styling purposes)
 
 ## In the future... 🔮
 ### Reading from the Database
