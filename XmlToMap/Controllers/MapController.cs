@@ -15,7 +15,7 @@ namespace XmlToMap.Controllers
         {
             try
             {
-                var directory = new DirectoryInfo("C:\\Users\\lornn\\Documents\\CsvToMap");
+                var directory = new DirectoryInfo("C:\\Users\\lornn\\Documents\\XmlToMap");
                 if (directory.Exists)
                 {
                     var files = directory.GetFiles().FirstOrDefault(f => f.Name.Equals("Locations.xml"));
