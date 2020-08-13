@@ -23,9 +23,9 @@ Make sure you replace the **APIKEY** value with your Google Maps API Key in the 
 <script src="https://maps.googleapis.com/maps/api/js?key=APIKEY"></script>
 ```
 
-For now, I've put the *Locations.xml* file on my local drive, this will need changing if you're going to run it (*MapController*):
+For now, I've put the *Locations.xml* file on my local drive in a folder called *XmlToMap*, this will need changing if you're going to run it (*MapController*):
 ```
-var directory = new DirectoryInfo("C:\\Users\\lornn\\Documents\\CsvToMap");
+var directory = new DirectoryInfo("C:\\Users\\lornn\\Documents\\XmlToMap");
 ```
 
 If wanting to run locally, download the repo, restore Nuget packages and run.
