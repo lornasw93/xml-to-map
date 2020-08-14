@@ -4,7 +4,6 @@ using System.Linq;
 using System.Web.Http;
 using System.Xml.Serialization;
 using CsvToMap.Models;
-using XmlToMap.Models;
 
 namespace XmlToMap.Controllers.Api
 {
@@ -21,11 +20,10 @@ namespace XmlToMap.Controllers.Api
                     var files = directory.GetFiles().FirstOrDefault(f => f.Name.Equals("Locations.xml"));
                     if (files != null)
                     {
-                        var file = files.FullName;
-                        var json = File.ReadAllText(file);
-
                         var serializer = new XmlSerializer(typeof(RootObject), new XmlRootAttribute("Locations"));
-                        var stringReader = new StringReader(json);
+                         
+                        var fileData = File.ReadAllText(files.FullName);
+                        var stringReader = new StringReader(fileData);
                         var productList = serializer.Deserialize(stringReader);
 
                         return Ok(productList);
