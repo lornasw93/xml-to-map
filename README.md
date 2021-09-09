@@ -1,3 +1,5 @@
+Outcome of this tech test: offered and accept job as Software Engineer.
+
 # XML to Map
 
 *Copy of the tech test requirements is included [here](https://github.com/lornasw93/xml-to-map/blob/master/Tech%20Test.docx)* (with the API Key hidden)
